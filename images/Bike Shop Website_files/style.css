@@ -1,0 +1,156 @@
+#commented the additional options
+#Visit dribble and Behance websites for more color references/options for UI
+#colorPicker chrome addon to pick a color code from any UI page
+#Visit CSS tricks
+html{
+  height: 100%;
+}
+body{
+  # background-color: #FC5E55;
+ background-image: linear-gradient(#FC5E55,#FA4083);
+ font-family: Arial,Helvetica,sans-serif;
+ color: white;
+}
+
+.container{
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  min-height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid lightGrey;
+}
+
+main{
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.cards{
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card1, .card2, .card3 {
+  box-sizing: border-box;
+  padding: 30px 30px 20px 30px;
+  border-radius: 10px;
+  box-shadow: 7px 7px 7px rgb(0,0,0,0.45);
+}
+
+.card1{
+  background-image: url('images/background-image-1.jpeg');
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+}
+
+.card2{
+  background-image: url('images/background-image-2-backup.jpeg');
+  background-size: cover;
+  background-position: bottom;
+  width: 30%;
+}
+
+.card3{
+  background-image: url('images/background-image-3.jpeg');
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+}
+
+.cards p{
+  #margin: 20px 30px 20px 30px;
+  font-size: 0.75rem;
+}
+
+.herobox1{
+  flex: 2;
+}
+
+.herobox2{
+  flex: 1;
+}
+h1{
+  font-size: 28px;
+  text-shadow: 4px 4px 4px rgb(0,0,0,0.45);
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+.cards i{
+  margin-top: 20px;
+  font-size: 4rem;
+}
+
+.cards a{
+  color:white;
+  text-decoration: none;
+}
+
+.herobox1 a{
+  text-decoration: none;
+}
+
+.myButton{
+background-color: white;
+color: #FC5E55;
+font-family: serif;
+padding: 11px 25px;
+display: inline-block;
+#border-radius: 12px 6px;
+border-radius: 12px;
+box-shadow: 4px 4px 4px rgb(0,0,0,0.45);
+text-decoration: none;
+}
+
+.myButton:hover{
+  background-color: #0fdbd4;
+  transition-delay: 1s;
+}
+
+.navButton{
+  #border-style: solid;
+  #border-width: thin;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  padding: 11px 25px;
+  font-family: serif;
+
+}
+
+img{
+  border-radius: 12px;
+  box-shadow: 7px 7px 7px rgb(0,0,0,0.45);
+}
+
+.feedbackSpace{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tbox{
+  width: 40%;
+  padding: 11px 25px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.tbox :last-child{
+  font-size: 0.8rem;
+  padding-left: 20px;
+}
